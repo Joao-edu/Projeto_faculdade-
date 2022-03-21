@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2? family= BhuTuka+Expanded+One & family= Edredom+Brush & family= Poppins:ital,wght@0,100;0,300;0,400;0,500; 0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & família= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;0,700;0,900; 1.400;1.500;1.700;1.900 & family= Rock+Salt & display=swap');
+
+:root{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+/*        login        */
+
+body{
+    background-color: var(--cor-fundo);
+    min-width: 100vh;
+    min-height: 100vh;
+    display: block;
+ 
+}
+
+.Login{
+    margin: 10rem 5rem;
+    background: #fff;
+    max-width: 350px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.10); ;
+}
+
+.Login form .title{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+    position: relative;
+}
+
+
+.Login form .input-box{
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.Login form .input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+
+.Login form .underline::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    left: 0;
+    bottom: 0;
+}
+
+.Login .underline::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(38, 0, 255) 0%, rgb(38, 0, 255) 100%);
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.3s ease;
+}
+
+.Login form .button{
+    margin: 40px 0 20px 0;
+}
+
+.Login .input-box input[type="submit"]{
+    background: rgb(117, 126, 250);
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Login .input-box input[type="submit"]:hover{
+    letter-spacing: 1px;
+    background: #fff;
+    color: rgb(117, 126, 250);
+}
+
+.Login .option1{
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.form_Login .option1 a {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+
+
+
+/*        Cadastro        */
+.Cadastro   {
+    margin: 10rem 5rem;
+    max-width: 350px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.10); ;
+}
+
+.Cadastro .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+.Cadastro form .user-details{
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.Cadastro form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 90% ;
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+}
+
+
+
+
+.Cadastro form .register {
+    height: 45px;
+    margin: 45px 0;
+}
+
+.Cadastro form .register input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight:  500;
+    background: rgb(117, 126, 250);
+    transition: all 0.3s ease;
+}
+
+.Cadastro form .register input:hover {
+    background: #fff;
+    color: rgb(117, 126, 250);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+  
+
+.menu ul{
+    background-color: var(--cor-menu);
+    text-align: left;
+  
+    
+}  
+
+.menu ul{
+    list-style-type: none;
+    padding: 5px;
+    
+    
+    }
+ 
+.menu ul li{
+    display: inline-block;
+
+}   
+
+.menu ul li a{
+    color: var(--cor-textmenu);
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    
+    
+}  
+
+.menu ul li a:hover {
+    background-color: var(--cor-fundo);
+    border-radius: 10px;
+    
+   
+}  
+
+
+
+
+
+
+
+
+
+
