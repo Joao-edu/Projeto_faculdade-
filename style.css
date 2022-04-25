@@ -186,44 +186,14 @@ body{
 }
 
 
+/*=============================MENU=========================*/
+
+
 
   
 
-.menu ul{
-    background-color: var(--cor-menu);
-    text-align: left;
-  
-    
-}  
 
-.menu ul{
-    list-style-type: none;
-    padding: 5px;
-    
-    
-    }
- 
-.menu ul li{
-    display: inline-block;
 
-}   
-
-.menu ul li a{
-    color: var(--cor-textmenu);
-    text-decoration: none;
-    padding: 10px;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    
-    
-}  
-
-.menu ul li a:hover {
-    background-color: var(--cor-fundo);
-    border-radius: 10px;
-    
-   
-}  
 
 
 
