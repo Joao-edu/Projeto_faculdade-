@@ -293,20 +293,20 @@ iframe {
 /*=============================CADASTRO DE PRODUTO=========================*/
 
 
-#register .title {
+.container .title {
     font-size: 30px;
 }
 
-#register .title {
+.container .title {
     background:linear-gradient(to bottom, #86c6f8 5%, #acbac5 100%);
 }
 
-#register .title {
+.containergi .title {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-#register .input-box {
+.container .input-box {
     height: 35px;
     width: 95%;
     background: #eff0f3;   
@@ -337,14 +337,56 @@ iframe {
     align-items: center;
 }
 
+.butom input {
+    text-decoration:none;
+    border-radius: 10px;
+}
 
+
+.butom input { 
+   cursor: pointer;
+   background:linear-gradient(to bottom, #86c6f8 5%, #acbac5 100%);
+   box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+   color:#fff;
+}
 
 .butom input {
-    display:inline; 
-    border-radius: 10rem;
+     display:inline; 
+     border-radius: 10rem;
      width: 6rem;
      height: 2rem;
      float:left;
      margin-top: 1rem;
      margin-left: 1rem;
+     cursor: pointer;
 }
+
+/*=============================EDITAR DE PRODUTO=========================*/
+
+
+#edit {
+    display: inline;
+    height: 10px;
+    width: 95%;
+}
+
+
+#edit .box{ 
+    
+    background: #eff0f3;   
+    margin-top: 0.5rem; 
+    height: 35px;
+}  
+
+#edit .box input{
+    display: inline;
+    display: block;
+    outline-style: auto;
+    margin-left: 13rem; 
+    margin-top: -0.69rem;     
+}
+
+#edit .box output{ 
+    justify-content: space-around;
+}
+
