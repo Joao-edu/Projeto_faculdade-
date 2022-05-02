@@ -425,3 +425,35 @@ iframe {
      margin-left: 1rem;
      
 }
+
+/*=============================REMOVER DE PRODUTO=========================*/
+
+#register .button #divBusca input{
+    height: 1.6rem;
+    width: 10rem;
+    border-radius: 10rem;
+    margin-right: -4.5rem;
+}
+
+#register .button .buscar input{
+   margin-right: -10rem;
+   border-radius: 10rem;
+   cursor: pointer;
+   background:linear-gradient(to bottom, #86c6f8 5%, #acbac5 100%);
+   box-shadow:inset 0px 0px 0px 0px #d7ecfd;
+}
+
+#register .button .Confirm input{ 
+   margin-left: 6rem;
+   height: 2rem;
+   width: 6rem;
+   border-radius: 10rem;
+   cursor: pointer;
+   background:linear-gradient(to bottom, #86c6f8 5%, #acbac5 100%);
+   box-shadow:inset 0px 0px 0px 0px #d7ecfd;
+ 
+}
+
+
+
+/*============================= CONSULTAR DE PRODUTO=========================*/
