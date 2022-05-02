@@ -337,20 +337,20 @@ iframe {
     align-items: center;
 }
 
-.butom input {
+#register .butom input  {
     text-decoration:none;
     border-radius: 10px;
 }
 
 
-.butom input { 
+#register .butom input  { 
    cursor: pointer;
    background:linear-gradient(to bottom, #86c6f8 5%, #acbac5 100%);
    box-shadow:inset 0px 1px 0px 0px #d7ecfd;
    color:#fff;
 }
 
-.butom input {
+#register .butom input {
      display:inline; 
      border-radius: 10rem;
      width: 6rem;
@@ -372,7 +372,6 @@ iframe {
 
 
 #edit .box{ 
-    
     background: #eff0f3;   
     margin-top: 0.5rem; 
     height: 35px;
@@ -390,3 +389,39 @@ iframe {
     justify-content: space-around;
 }
 
+ 
+
+#edit .button #divBusca input{
+    height: 1.6rem;
+    width: 10rem;
+    border-radius: 10rem;
+    margin-right: -4.5rem;
+}
+
+#edit .button .buscar input{
+   margin-right: -10rem;
+   border-radius: 10rem;
+   cursor: pointer;
+   background:linear-gradient(to bottom, #86c6f8 5%, #acbac5 100%);
+   box-shadow:inset 0px 0px 0px 0px #d7ecfd;
+}
+
+#edit .button .Confirm input{ 
+   margin-left: 6rem;
+   height: 2rem;
+   width: 6rem;
+   border-radius: 10rem;
+   cursor: pointer;
+   background:linear-gradient(to bottom, #86c6f8 5%, #acbac5 100%);
+   box-shadow:inset 0px 0px 0px 0px #d7ecfd;
+ 
+}
+
+.button input{
+     display:inline; 
+     height: 2rem;
+     float:left;
+     margin-top: 1rem;
+     margin-left: 1rem;
+     
+}
